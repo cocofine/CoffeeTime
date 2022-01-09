@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50D20708BD17EA0BD68E5211 /* Pods_CoffeeTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F6A078F1E5584052C4090 /* Pods_CoffeeTimeTests.framework */; };
+		04F2CC0ACFF0C153894FA01E /* libPods-CoffeeTime-CoffeeTimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC09BE5F0C1ECFA9763C52D /* libPods-CoffeeTime-CoffeeTimeUITests.a */; };
+		385EAAD9DF6BE1A95C6505E3 /* libPods-CoffeeTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 785E03631B0A5BF7AB77A18E /* libPods-CoffeeTime.a */; };
+		7416BA6F2789E77800491040 /* BaseConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA6E2789E77800491040 /* BaseConst.swift */; };
+		7416BA74278AB4E100491040 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA73278AB4E100491040 /* APIProvider.swift */; };
+		7416BA76278AB61900491040 /* CoffeeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA75278AB61900491040 /* CoffeeRequest.swift */; };
 		7467B43127894B080073FB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B43027894B080073FB52 /* AppDelegate.swift */; };
 		7467B43327894B080073FB52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B43227894B080073FB52 /* SceneDelegate.swift */; };
 		7467B43827894B080073FB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7467B43627894B080073FB52 /* Main.storyboard */; };
@@ -21,8 +25,7 @@
 		7467B47B278951DC0073FB52 /* DiscoveryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B47A278951DC0073FB52 /* DiscoveryController.swift */; };
 		7467B47D278951F40073FB52 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B47C278951F40073FB52 /* ShopController.swift */; };
 		7467B47F278952050073FB52 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B47E278952050073FB52 /* MineController.swift */; };
-		A8A04ACCC57B68B95339060E /* Pods_CoffeeTime_CoffeeTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B21968B8A17E091068CCEAE /* Pods_CoffeeTime_CoffeeTimeUITests.framework */; };
-		F09CB66956D3FB55AEC8ECC8 /* Pods_CoffeeTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A473400FB091F3A5B9EFCB /* Pods_CoffeeTime.framework */; };
+		EF039E5A04A4EFBAC9AD4C5F /* libPods-CoffeeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4FD7A248711EC8DB33775C /* libPods-CoffeeTimeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +49,11 @@
 		0DDFC5F65186A63A9EFB2FD5 /* Pods-CoffeeTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeTime/Pods-CoffeeTime.debug.xcconfig"; sourceTree = "<group>"; };
 		122752A97DFB2845762BC95D /* Pods-CoffeeTime-CoffeeTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime-CoffeeTimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeTime-CoffeeTimeUITests/Pods-CoffeeTime-CoffeeTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		143574FC4FD4A7B98EE10EA0 /* Pods-CoffeeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTimeTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeTimeTests/Pods-CoffeeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B21968B8A17E091068CCEAE /* Pods_CoffeeTime_CoffeeTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeTime_CoffeeTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4FD7A248711EC8DB33775C /* libPods-CoffeeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		651BD1CD8E9952E987A48CA3 /* Pods-CoffeeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTime/Pods-CoffeeTime.release.xcconfig"; sourceTree = "<group>"; };
+		7416BA6E2789E77800491040 /* BaseConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConst.swift; sourceTree = "<group>"; };
+		7416BA73278AB4E100491040 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		7416BA75278AB61900491040 /* CoffeeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRequest.swift; sourceTree = "<group>"; };
 		7467B42D27894B080073FB52 /* CoffeeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7467B43027894B080073FB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7467B43227894B080073FB52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,10 +71,10 @@
 		7467B47A278951DC0073FB52 /* DiscoveryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryController.swift; sourceTree = "<group>"; };
 		7467B47C278951F40073FB52 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
 		7467B47E278952050073FB52 /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
-		78A473400FB091F3A5B9EFCB /* Pods_CoffeeTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		785E03631B0A5BF7AB77A18E /* libPods-CoffeeTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D78389B9458A569579AAC69 /* Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTime-CoffeeTimeUITests/Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC09BE5F0C1ECFA9763C52D /* libPods-CoffeeTime-CoffeeTimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTime-CoffeeTimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA567207B177AEC8D39B72FD /* Pods-CoffeeTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTimeTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTimeTests/Pods-CoffeeTimeTests.release.xcconfig"; sourceTree = "<group>"; };
-		F82F6A078F1E5584052C4090 /* Pods_CoffeeTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09CB66956D3FB55AEC8ECC8 /* Pods_CoffeeTime.framework in Frameworks */,
+				385EAAD9DF6BE1A95C6505E3 /* libPods-CoffeeTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D20708BD17EA0BD68E5211 /* Pods_CoffeeTimeTests.framework in Frameworks */,
+				EF039E5A04A4EFBAC9AD4C5F /* libPods-CoffeeTimeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8A04ACCC57B68B95339060E /* Pods_CoffeeTime_CoffeeTimeUITests.framework in Frameworks */,
+				04F2CC0ACFF0C153894FA01E /* libPods-CoffeeTime-CoffeeTimeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,11 +108,28 @@
 		6D3AE150EB77D87EC2730A4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78A473400FB091F3A5B9EFCB /* Pods_CoffeeTime.framework */,
-				5B21968B8A17E091068CCEAE /* Pods_CoffeeTime_CoffeeTimeUITests.framework */,
-				F82F6A078F1E5584052C4090 /* Pods_CoffeeTimeTests.framework */,
+				785E03631B0A5BF7AB77A18E /* libPods-CoffeeTime.a */,
+				9AC09BE5F0C1ECFA9763C52D /* libPods-CoffeeTime-CoffeeTimeUITests.a */,
+				5B4FD7A248711EC8DB33775C /* libPods-CoffeeTimeTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7416BA692789E02200491040 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				7416BA70278AB28A00491040 /* MoyaRequest */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		7416BA70278AB28A00491040 /* MoyaRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7416BA75278AB61900491040 /* CoffeeRequest.swift */,
+				7416BA73278AB4E100491040 /* APIProvider.swift */,
+			);
+			path = MoyaRequest;
 			sourceTree = "<group>";
 		};
 		7467B42427894B080073FB52 = {
@@ -136,6 +159,7 @@
 			children = (
 				7467B43027894B080073FB52 /* AppDelegate.swift */,
 				7467B43227894B080073FB52 /* SceneDelegate.swift */,
+				7416BA692789E02200491040 /* Request */,
 				7467B47427894C220073FB52 /* BaseControl */,
 				7467B47527894C220073FB52 /* BaseTools */,
 				7467B46A27894BFC0073FB52 /* Home */,
@@ -338,6 +362,7 @@
 		7467B47527894C220073FB52 /* BaseTools */ = {
 			isa = PBXGroup;
 			children = (
+				7416BA6E2789E77800491040 /* BaseConst.swift */,
 			);
 			path = BaseTools;
 			sourceTree = "<group>";
@@ -352,7 +377,6 @@
 				143574FC4FD4A7B98EE10EA0 /* Pods-CoffeeTimeTests.debug.xcconfig */,
 				AA567207B177AEC8D39B72FD /* Pods-CoffeeTimeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -385,7 +409,6 @@
 				7467B43F27894B0A0073FB52 /* Sources */,
 				7467B44027894B0A0073FB52 /* Frameworks */,
 				7467B44127894B0A0073FB52 /* Resources */,
-				116D67B9AB1B1ACF43E7EED5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -487,23 +510,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		116D67B9AB1B1ACF43E7EED5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeTimeTests/Pods-CoffeeTimeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeTimeTests/Pods-CoffeeTimeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeTimeTests/Pods-CoffeeTimeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		194B8C6BD46CD85BE79726E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,6 +588,9 @@
 				7467B47B278951DC0073FB52 /* DiscoveryController.swift in Sources */,
 				7467B47727894D720073FB52 /* BaseTabBarController.swift in Sources */,
 				7467B43127894B080073FB52 /* AppDelegate.swift in Sources */,
+				7416BA76278AB61900491040 /* CoffeeRequest.swift in Sources */,
+				7416BA6F2789E77800491040 /* BaseConst.swift in Sources */,
+				7416BA74278AB4E100491040 /* APIProvider.swift in Sources */,
 				7467B47F278952050073FB52 /* MineController.swift in Sources */,
 				7467B43327894B080073FB52 /* SceneDelegate.swift in Sources */,
 			);

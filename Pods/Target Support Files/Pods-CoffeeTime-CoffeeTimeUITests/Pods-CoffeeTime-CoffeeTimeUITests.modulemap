@@ -1,4 +1,4 @@
-framework module Pods_CoffeeTime_CoffeeTimeUITests {
+module Pods_CoffeeTime_CoffeeTimeUITests {
   umbrella header "Pods-CoffeeTime-CoffeeTimeUITests-umbrella.h"
 
   export *

@@ -14,17 +14,28 @@ class HomeController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.orange
+        
+        //Moya适用
+//        MoyaProvider<APIProvider>().request(.dog) { result in
+//            switch result {
+//            case let .success(response):
+//                let dic = try? JSONSerialization.jsonObject(with: response.data, options: .mutableContainers)
+//                print(dic ?? "")
+//            case let .failure(error):
+//                print(error)
+//            }
+//        }
+        
+        //二次封装使用
+        CoffeeRequest(APIProvider.dog) { data in
+            let dic = try? JSONSerialization.jsonObject(with: data as Data, options: .mutableContainers)
+            print(dic ?? "")
+        }
+        
+        
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }
