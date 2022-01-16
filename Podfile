@@ -8,6 +8,8 @@ target 'CoffeeTime' do
   
   pod 'Moya'
   pod 'Texture'
+  pod 'RxDataSources'
+  pod 'SnapKit'
 
   # Pods for CoffeeTime
 

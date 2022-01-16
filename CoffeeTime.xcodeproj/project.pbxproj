@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		04F2CC0ACFF0C153894FA01E /* libPods-CoffeeTime-CoffeeTimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC09BE5F0C1ECFA9763C52D /* libPods-CoffeeTime-CoffeeTimeUITests.a */; };
 		385EAAD9DF6BE1A95C6505E3 /* libPods-CoffeeTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 785E03631B0A5BF7AB77A18E /* libPods-CoffeeTime.a */; };
+		74165BD8279320F300247C69 /* DataSourcesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BD7279320F300247C69 /* DataSourcesController.swift */; };
+		74165BDA2793210D00247C69 /* DataSourcesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BD92793210D00247C69 /* DataSourcesModel.swift */; };
+		74165BDD2793251E00247C69 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BDC2793251E00247C69 /* StringExtension.swift */; };
+		74165BDF279325B200247C69 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BDE279325B200247C69 /* UITableViewCellExtension.swift */; };
+		74165BE1279325BF00247C69 /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BE0279325BF00247C69 /* UICollectionViewCellExtension.swift */; };
 		7416BA6F2789E77800491040 /* BaseConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA6E2789E77800491040 /* BaseConst.swift */; };
 		7416BA74278AB4E100491040 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA73278AB4E100491040 /* APIProvider.swift */; };
 		7416BA76278AB61900491040 /* CoffeeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA75278AB61900491040 /* CoffeeRequest.swift */; };
@@ -51,6 +56,11 @@
 		143574FC4FD4A7B98EE10EA0 /* Pods-CoffeeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTimeTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeTimeTests/Pods-CoffeeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B4FD7A248711EC8DB33775C /* libPods-CoffeeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		651BD1CD8E9952E987A48CA3 /* Pods-CoffeeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTime/Pods-CoffeeTime.release.xcconfig"; sourceTree = "<group>"; };
+		74165BD7279320F300247C69 /* DataSourcesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourcesController.swift; sourceTree = "<group>"; };
+		74165BD92793210D00247C69 /* DataSourcesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourcesModel.swift; sourceTree = "<group>"; };
+		74165BDC2793251E00247C69 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		74165BDE279325B200247C69 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		74165BE0279325BF00247C69 /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
 		7416BA6E2789E77800491040 /* BaseConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConst.swift; sourceTree = "<group>"; };
 		7416BA73278AB4E100491040 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		7416BA75278AB61900491040 /* CoffeeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRequest.swift; sourceTree = "<group>"; };
@@ -115,6 +125,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		74165BD2279320CF00247C69 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				74165BD6279320CF00247C69 /* ViewController */,
+				74165BD3279320CF00247C69 /* ViewModel */,
+				74165BD4279320CF00247C69 /* Model */,
+				74165BD5279320CF00247C69 /* View */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		74165BD3279320CF00247C69 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74165BD4279320CF00247C69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74165BD92793210D00247C69 /* DataSourcesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74165BD5279320CF00247C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74165BD6279320CF00247C69 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74165BD7279320F300247C69 /* DataSourcesController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		74165BDB279324CC00247C69 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				74165BDC2793251E00247C69 /* StringExtension.swift */,
+				74165BDE279325B200247C69 /* UITableViewCellExtension.swift */,
+				74165BE0279325BF00247C69 /* UICollectionViewCellExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		7416BA692789E02200491040 /* Request */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +223,8 @@
 				7416BA692789E02200491040 /* Request */,
 				7467B47427894C220073FB52 /* BaseControl */,
 				7467B47527894C220073FB52 /* BaseTools */,
+				74165BD2279320CF00247C69 /* Test */,
+				74165BDB279324CC00247C69 /* Extension */,
 				7467B46A27894BFC0073FB52 /* Home */,
 				7467B46F27894BFC0073FB52 /* Discovery */,
 				7467B46027894BFC0073FB52 /* Shop */,
@@ -583,15 +646,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74165BDA2793210D00247C69 /* DataSourcesModel.swift in Sources */,
 				7467B479278951C20073FB52 /* HomeController.swift in Sources */,
 				7467B47D278951F40073FB52 /* ShopController.swift in Sources */,
 				7467B47B278951DC0073FB52 /* DiscoveryController.swift in Sources */,
+				74165BE1279325BF00247C69 /* UICollectionViewCellExtension.swift in Sources */,
+				74165BD8279320F300247C69 /* DataSourcesController.swift in Sources */,
 				7467B47727894D720073FB52 /* BaseTabBarController.swift in Sources */,
 				7467B43127894B080073FB52 /* AppDelegate.swift in Sources */,
 				7416BA76278AB61900491040 /* CoffeeRequest.swift in Sources */,
 				7416BA6F2789E77800491040 /* BaseConst.swift in Sources */,
 				7416BA74278AB4E100491040 /* APIProvider.swift in Sources */,
 				7467B47F278952050073FB52 /* MineController.swift in Sources */,
+				74165BDF279325B200247C69 /* UITableViewCellExtension.swift in Sources */,
+				74165BDD2793251E00247C69 /* StringExtension.swift in Sources */,
 				7467B43327894B080073FB52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
