@@ -10,7 +10,10 @@ target 'CoffeeTime' do
   pod 'Texture'
   pod 'RxDataSources'
   pod 'SnapKit'
-
+  pod 'Kingfisher'
+  pod 'YYModel'
+  #pod 'ijkplayer'
+  
   # Pods for CoffeeTime
 
   target 'CoffeeTimeTests' do

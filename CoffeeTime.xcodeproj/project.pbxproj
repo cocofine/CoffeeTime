@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		04F2CC0ACFF0C153894FA01E /* libPods-CoffeeTime-CoffeeTimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC09BE5F0C1ECFA9763C52D /* libPods-CoffeeTime-CoffeeTimeUITests.a */; };
 		385EAAD9DF6BE1A95C6505E3 /* libPods-CoffeeTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 785E03631B0A5BF7AB77A18E /* libPods-CoffeeTime.a */; };
-		74165BD8279320F300247C69 /* DataSourcesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BD7279320F300247C69 /* DataSourcesController.swift */; };
-		74165BDA2793210D00247C69 /* DataSourcesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BD92793210D00247C69 /* DataSourcesModel.swift */; };
 		74165BDD2793251E00247C69 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BDC2793251E00247C69 /* StringExtension.swift */; };
 		74165BDF279325B200247C69 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BDE279325B200247C69 /* UITableViewCellExtension.swift */; };
 		74165BE1279325BF00247C69 /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165BE0279325BF00247C69 /* UICollectionViewCellExtension.swift */; };
 		7416BA6F2789E77800491040 /* BaseConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA6E2789E77800491040 /* BaseConst.swift */; };
 		7416BA74278AB4E100491040 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA73278AB4E100491040 /* APIProvider.swift */; };
 		7416BA76278AB61900491040 /* CoffeeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BA75278AB61900491040 /* CoffeeRequest.swift */; };
+		7419742729518C2300BF2F20 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7419742629518C2300BF2F20 /* HomeModel.swift */; };
 		7467B43127894B080073FB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B43027894B080073FB52 /* AppDelegate.swift */; };
 		7467B43327894B080073FB52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B43227894B080073FB52 /* SceneDelegate.swift */; };
 		7467B43827894B080073FB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7467B43627894B080073FB52 /* Main.storyboard */; };
@@ -30,6 +29,9 @@
 		7467B47B278951DC0073FB52 /* DiscoveryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B47A278951DC0073FB52 /* DiscoveryController.swift */; };
 		7467B47D278951F40073FB52 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B47C278951F40073FB52 /* ShopController.swift */; };
 		7467B47F278952050073FB52 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7467B47E278952050073FB52 /* MineController.swift */; };
+		74DB001C279D66250055B039 /* DataSourcesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB0018279D66250055B039 /* DataSourcesModel.swift */; };
+		74DB001D279D66250055B039 /* DataSourcesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB001B279D66250055B039 /* DataSourcesController.swift */; };
+		74DB001F279D698C0055B039 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB001E279D698C0055B039 /* UIImageViewExtension.swift */; };
 		EF039E5A04A4EFBAC9AD4C5F /* libPods-CoffeeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4FD7A248711EC8DB33775C /* libPods-CoffeeTimeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -56,14 +58,13 @@
 		143574FC4FD4A7B98EE10EA0 /* Pods-CoffeeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTimeTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeTimeTests/Pods-CoffeeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B4FD7A248711EC8DB33775C /* libPods-CoffeeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		651BD1CD8E9952E987A48CA3 /* Pods-CoffeeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTime/Pods-CoffeeTime.release.xcconfig"; sourceTree = "<group>"; };
-		74165BD7279320F300247C69 /* DataSourcesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourcesController.swift; sourceTree = "<group>"; };
-		74165BD92793210D00247C69 /* DataSourcesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourcesModel.swift; sourceTree = "<group>"; };
 		74165BDC2793251E00247C69 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		74165BDE279325B200247C69 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		74165BE0279325BF00247C69 /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
 		7416BA6E2789E77800491040 /* BaseConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConst.swift; sourceTree = "<group>"; };
 		7416BA73278AB4E100491040 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		7416BA75278AB61900491040 /* CoffeeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRequest.swift; sourceTree = "<group>"; };
+		7419742629518C2300BF2F20 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		7467B42D27894B080073FB52 /* CoffeeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7467B43027894B080073FB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7467B43227894B080073FB52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +82,10 @@
 		7467B47A278951DC0073FB52 /* DiscoveryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryController.swift; sourceTree = "<group>"; };
 		7467B47C278951F40073FB52 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
 		7467B47E278952050073FB52 /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
+		74DB0018279D66250055B039 /* DataSourcesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourcesModel.swift; sourceTree = "<group>"; };
+		74DB001B279D66250055B039 /* DataSourcesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourcesController.swift; sourceTree = "<group>"; };
+		74DB001E279D698C0055B039 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		74FA9B002991029100168594 /* CoffeeTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeTime-Bridging-Header.h"; sourceTree = "<group>"; };
 		785E03631B0A5BF7AB77A18E /* libPods-CoffeeTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D78389B9458A569579AAC69 /* Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTime-CoffeeTimeUITests/Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9AC09BE5F0C1ECFA9763C52D /* libPods-CoffeeTime-CoffeeTimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTime-CoffeeTimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,42 +133,9 @@
 		74165BD2279320CF00247C69 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				74165BD6279320CF00247C69 /* ViewController */,
-				74165BD3279320CF00247C69 /* ViewModel */,
-				74165BD4279320CF00247C69 /* Model */,
-				74165BD5279320CF00247C69 /* View */,
+				74DB0015279D66250055B039 /* RxDataSourceTest */,
 			);
 			path = Test;
-			sourceTree = "<group>";
-		};
-		74165BD3279320CF00247C69 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		74165BD4279320CF00247C69 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				74165BD92793210D00247C69 /* DataSourcesModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		74165BD5279320CF00247C69 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		74165BD6279320CF00247C69 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				74165BD7279320F300247C69 /* DataSourcesController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		74165BDB279324CC00247C69 /* Extension */ = {
@@ -172,6 +144,7 @@
 				74165BDC2793251E00247C69 /* StringExtension.swift */,
 				74165BDE279325B200247C69 /* UITableViewCellExtension.swift */,
 				74165BE0279325BF00247C69 /* UICollectionViewCellExtension.swift */,
+				74DB001E279D698C0055B039 /* UIImageViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -202,6 +175,7 @@
 				7467B42E27894B080073FB52 /* Products */,
 				E4C07AB0E48A7B4D130F9DF0 /* Pods */,
 				6D3AE150EB77D87EC2730A4D /* Frameworks */,
+				74FA9B002991029100168594 /* CoffeeTime-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -355,6 +329,7 @@
 		7467B46C27894BFC0073FB52 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7419742629518C2300BF2F20 /* HomeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -428,6 +403,47 @@
 				7416BA6E2789E77800491040 /* BaseConst.swift */,
 			);
 			path = BaseTools;
+			sourceTree = "<group>";
+		};
+		74DB0015279D66250055B039 /* RxDataSourceTest */ = {
+			isa = PBXGroup;
+			children = (
+				74DB0016279D66250055B039 /* ViewModel */,
+				74DB0017279D66250055B039 /* Model */,
+				74DB0019279D66250055B039 /* View */,
+				74DB001A279D66250055B039 /* ViewController */,
+			);
+			path = RxDataSourceTest;
+			sourceTree = "<group>";
+		};
+		74DB0016279D66250055B039 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74DB0017279D66250055B039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74DB0018279D66250055B039 /* DataSourcesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74DB0019279D66250055B039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74DB001A279D66250055B039 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74DB001B279D66250055B039 /* DataSourcesController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		E4C07AB0E48A7B4D130F9DF0 /* Pods */ = {
@@ -514,6 +530,7 @@
 				TargetAttributes = {
 					7467B42C27894B080073FB52 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1420;
 					};
 					7467B44227894B0A0073FB52 = {
 						CreatedOnToolsVersion = 13.0;
@@ -646,20 +663,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74165BDA2793210D00247C69 /* DataSourcesModel.swift in Sources */,
+				74DB001C279D66250055B039 /* DataSourcesModel.swift in Sources */,
 				7467B479278951C20073FB52 /* HomeController.swift in Sources */,
 				7467B47D278951F40073FB52 /* ShopController.swift in Sources */,
 				7467B47B278951DC0073FB52 /* DiscoveryController.swift in Sources */,
 				74165BE1279325BF00247C69 /* UICollectionViewCellExtension.swift in Sources */,
-				74165BD8279320F300247C69 /* DataSourcesController.swift in Sources */,
 				7467B47727894D720073FB52 /* BaseTabBarController.swift in Sources */,
 				7467B43127894B080073FB52 /* AppDelegate.swift in Sources */,
 				7416BA76278AB61900491040 /* CoffeeRequest.swift in Sources */,
 				7416BA6F2789E77800491040 /* BaseConst.swift in Sources */,
+				7419742729518C2300BF2F20 /* HomeModel.swift in Sources */,
+				74DB001D279D66250055B039 /* DataSourcesController.swift in Sources */,
 				7416BA74278AB4E100491040 /* APIProvider.swift in Sources */,
 				7467B47F278952050073FB52 /* MineController.swift in Sources */,
 				74165BDF279325B200247C69 /* UITableViewCellExtension.swift in Sources */,
 				74165BDD2793251E00247C69 /* StringExtension.swift in Sources */,
+				74DB001F279D698C0055B039 /* UIImageViewExtension.swift in Sources */,
 				7467B43327894B080073FB52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -838,6 +857,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A2VZJY4N76;
@@ -856,6 +876,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ouyangqi.MySwift.CoffeeTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -867,6 +889,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A2VZJY4N76;
@@ -885,6 +908,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ouyangqi.MySwift.CoffeeTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoffeeTime-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

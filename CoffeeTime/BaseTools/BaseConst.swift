@@ -10,3 +10,4 @@ import Foundation
 @_exported import SnapKit
 @_exported import RxDataSources
 @_exported import RxSwift
+@_exported import Kingfisher

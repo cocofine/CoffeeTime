@@ -8,6 +8,21 @@
 import Foundation
 
 extension String {
+    //给extension添加存储属性的方法
+    private struct AssociatedKey {
+        static var identifier = ""
+    }
+    
+    public var identifier: String {
+        get {
+            return objc_getAssociatedObject(self, &AssociatedKey.identifier) as? String ?? ""
+        }
+        set {
+            return objc_setAssociatedObject(self, &AssociatedKey.identifier, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+        }
+    }
+    
+    
     
     /// 判断字符串是否有效，空，空格，换行都属于无效字符串
     func isValidString() -> Bool {
