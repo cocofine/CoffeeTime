@@ -32,6 +32,7 @@
 		74DB001C279D66250055B039 /* DataSourcesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB0018279D66250055B039 /* DataSourcesModel.swift */; };
 		74DB001D279D66250055B039 /* DataSourcesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB001B279D66250055B039 /* DataSourcesController.swift */; };
 		74DB001F279D698C0055B039 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DB001E279D698C0055B039 /* UIImageViewExtension.swift */; };
+		74FA9B06299BC26700168594 /* DemoTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA9B05299BC26700168594 /* DemoTestController.swift */; };
 		EF039E5A04A4EFBAC9AD4C5F /* libPods-CoffeeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4FD7A248711EC8DB33775C /* libPods-CoffeeTimeTests.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,7 @@
 		74DB001B279D66250055B039 /* DataSourcesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourcesController.swift; sourceTree = "<group>"; };
 		74DB001E279D698C0055B039 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		74FA9B002991029100168594 /* CoffeeTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeTime-Bridging-Header.h"; sourceTree = "<group>"; };
+		74FA9B05299BC26700168594 /* DemoTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTestController.swift; sourceTree = "<group>"; };
 		785E03631B0A5BF7AB77A18E /* libPods-CoffeeTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D78389B9458A569579AAC69 /* Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeTime-CoffeeTimeUITests/Pods-CoffeeTime-CoffeeTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9AC09BE5F0C1ECFA9763C52D /* libPods-CoffeeTime-CoffeeTimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeTime-CoffeeTimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +196,7 @@
 			children = (
 				7467B43027894B080073FB52 /* AppDelegate.swift */,
 				7467B43227894B080073FB52 /* SceneDelegate.swift */,
+				74FA9B04299BC1EE00168594 /* Demo */,
 				7416BA692789E02200491040 /* Request */,
 				7467B47427894C220073FB52 /* BaseControl */,
 				7467B47527894C220073FB52 /* BaseTools */,
@@ -446,6 +449,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		74FA9B04299BC1EE00168594 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				74FA9B05299BC26700168594 /* DemoTestController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		E4C07AB0E48A7B4D130F9DF0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,6 +690,7 @@
 				74165BDF279325B200247C69 /* UITableViewCellExtension.swift in Sources */,
 				74165BDD2793251E00247C69 /* StringExtension.swift in Sources */,
 				74DB001F279D698C0055B039 /* UIImageViewExtension.swift in Sources */,
+				74FA9B06299BC26700168594 /* DemoTestController.swift in Sources */,
 				7467B43327894B080073FB52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -60,22 +60,26 @@ class HomeController: UIViewController {
 //            }
 //
 //        }
+//        let a = 5
+//        let s = MemoryLayout<Int32>.size
         
         
-        
-
-        let model = HomeModel()
-        
-        model.setValue(nil, forKey: "age")
-        
-        print(model.age)
-
+        let btn = UIButton()
+        self.view.addSubview(btn)
+        btn.backgroundColor = .red
+        btn.snp.makeConstraints { make in
+            make.left.top.equalTo(100)
+            make.height.width.equalTo(100)
+        }
+        btn.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
         
     }
     
-
+    @objc func btnAction() {
+        let vc = DemoTestController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
-
     
     
     
