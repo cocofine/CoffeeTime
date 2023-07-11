@@ -64,14 +64,35 @@ class HomeController: UIViewController {
 //        let s = MemoryLayout<Int32>.size
         
         
-        let btn = UIButton()
+//        let btn = UIButton()
+//        self.view.addSubview(btn)
+//        btn.backgroundColor = .red
+//        btn.snp.makeConstraints { make in
+//            make.left.top.equalTo(100)
+//            make.height.width.equalTo(100)
+//        }
+//        btn.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
+        
+        
+        let btn = UIButton();
+        btn.setTitle("异常", for: .normal)
+        btn.setImage(UIImage.init(named: "bqr_watching_hint"), for: .normal)
+        btn.backgroundColor = .yellow
+        btn.setTitleColor(UIColor.black, for: .normal)
+        btn.titleLabel?.font = UIFont.systemFont(ofSize: 10)
+        
+        
+        btn.imageView?.contentMode = .scaleAspectFit
+        btn.imageEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
+//        btn.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 4)
+        
+        
         self.view.addSubview(btn)
-        btn.backgroundColor = .red
         btn.snp.makeConstraints { make in
-            make.left.top.equalTo(100)
-            make.height.width.equalTo(100)
+            make.left.top.equalTo(300);
+            make.height.equalTo(18);
         }
-        btn.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
+        
         
     }
     
